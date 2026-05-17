@@ -25,7 +25,7 @@ CREATE DATABASE examhub_auth;
 CREATE DATABASE examhub_exam;
 CREATE DATABASE examhub_result;
 ```
-Ensure your MySQL credentials are `root` / `Aastha19@` on `localhost:3306`, or update `application.properties` in each service. The tables will be auto-created by Hibernate.
+Ensure your MySQL credentials match your local setup, or update `application.properties` in each service. The tables will be auto-created by Hibernate.
 
 ### 2. Build the Project
 In each folder (`eureka-server`, `api-gateway`, `auth-service`, `exam-service`, `result-service`), run:
